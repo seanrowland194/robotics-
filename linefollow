@@ -1,0 +1,17 @@
+#include <kipr/botball.h> 
+//variables 
+int l_motor = 0; 
+int r_motor = 3;
+int speed = 60;
+int bot_sensor=0 // what ports it's in 
+int non_line_value=;
+int line_value=;
+while( analog(bot_sensor)==line_value){ // while it's on the line move foward 
+foward();
+if(analog(bot_sensor)== // if it's not on the line move to the line
+
+// custom functions
+void forward(){
+    motor(l_motor,speed); //go forward
+        motor(r_motor,speed);
+        }
