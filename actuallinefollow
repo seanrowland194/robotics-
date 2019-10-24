@@ -1,0 +1,34 @@
+int top_hat 
+int line= 
+int f_sense=
+int n_line= 
+int f_target=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/custom functions 
+void veer right{
+
+}
+void veer left{
+}
+void line_fun{
+while(f_sense<f_target){
+if(top_hat!= line){
+veer right();
+}
+if(top_hat!=line){
+veer left();
+}
