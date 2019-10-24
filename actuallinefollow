@@ -3,16 +3,16 @@ int line=
 int f_sense=
 int n_line= 
 int f_target=
-find_line();
-line_fun():
+findline();
+linefun():
 /custom functions 
 void veer right{
 
 }
 void veer left{
 }
-void find_line{
-void line_fun{
+void findline{
+void linefun{
 while(f_sense<f_target){
 if(top_hat!= line){
 veer right();
